@@ -3,6 +3,7 @@
 .main-content{
     padding: 20px;
     background-color: lemonchiffon;
+    height: 100vh;
 }
 
 
@@ -14,5 +15,20 @@
 
 .table-main{
     width: 100%;
-    border: 1px solid black;
+    border-collapse: collapse;
+    border: 2px solid black;
+    background: #d9f4ff;
+    color: black;
+}
+
+
+.table-main th{
+    border: 1px solid;
+    background: #63c6ff;
+    color: black;
+}
+
+
+.table-main td{
+    border: 2px solid black;
 }
