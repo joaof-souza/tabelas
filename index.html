@@ -14,37 +14,50 @@
         <header class="header-title">
             <h1>Exemplos de tabelas</h1>
             <!-- título para a tabela -->
-             <h2>Notas 1DS - SESI</h2>
+            <h2>Notas 1DS - SESI</h2>
         </header>
 
         <!-- container para a tabela -->
          <table class="table-main">
-            <!-- criar uma linha na tabela -->
-             <tr>
-                <!-- criar os cabeçalhos das linhas da tabela -->
-                <th>Aluno</th>
-                <th>Professor</th>
-                <th>Disciplina</th>
-                <th>Nota</th>
-             </tr>
-             <tr>
-                <td>Júlia</td>
-                <td>Celso</td>
-                <td>Física</td>
-                <td>10</td>
-             </tr>
-             <tr>
-                <td>Barbara</td>
-                <td>Liliane</td>
-                <td>Química</td>
-                <td>9,8</td>
-             </tr>
-             <tr>
-                <td>Davi</td>
-                <td>Sandra</td>
-                <td>Biologia</td>
-                <td>8,75</td>
-             </tr>
+             <!-- indicar o cabeçalho da tabela -->
+             <thead>
+                 <tr>
+                    <!-- criar os cabeçalhos das linhas da tabela -->
+                    <th>Aluno</th>
+                    <th>Professor</th>
+                    <th>Disciplina</th>
+                    <th>Nota</th>
+                 </tr>
+             </thead>
+
+             <!-- indicar o corpo da tabela -->
+             <tbody>
+                 <tr>
+                    <td>Júlia</td>
+                    <td>Celso</td>
+                    <td>Física</td>
+                    <td>10</td>
+                 </tr>
+                 <tr>
+                    <td>Barbara</td>
+                    <td>Liliane</td>
+                    <td>Química</td>
+                    <td>9,8</td>
+                 </tr>
+                 <tr>
+                    <td>Davi</td>
+                    <td>Sandra</td>
+                    <td>Biologia</td>
+                    <td>8,75</td>
+                 </tr>
+             </tbody>
+
+            <!-- indicar o rodapé da tabela -->
+             <tfoot>
+                 <tr>
+                    <td>Dados referentes do 1º Semestre de 2026</td>
+                 </tr>
+             </tfoot>
 
          </table>
     </main>
