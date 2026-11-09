@@ -1,0 +1,53 @@
+.main-content{
+    padding: 20px;
+    background-color: lemonchiffon;
+    height: 100vh;
+}
+
+
+.header-title{
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+
+.table-main{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    background: #d9f4ff;
+    color: black;
+}
+
+
+thead th{
+    border: 1px solid;
+    background: #63c6ff;
+    color: black;
+}
+
+
+.thead-title th{
+    line-height: 80px;
+    background: blue;
+    color: #ffffff;
+    border: black;
+}
+
+
+tbody td{
+    border: 2px solid black;
+}
+
+
+tfoot tr{
+    color: red;
+    background: yellow;
+    line-height: 100%;
+}
+
+
+tfoot th{
+    font-size: 18px;
+}
+
