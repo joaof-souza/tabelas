@@ -1,1 +1,18 @@
-@import url(./reset.css)
+@import url(./reset.css);
+
+.main-content{
+    padding: 20px;
+    background-color: lemonchiffon;
+}
+
+
+.header-title{
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+
+.table-main{
+    width: 100%;
+    border: 1px solid black;
+}
