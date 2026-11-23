@@ -17,11 +17,12 @@
     border: 2px solid black;
     background: #d9f4ff;
     color: black;
+    margin-bottom: 30px;
 }
 
 
 thead th{
-    border: 1px solid;
+    border: 2px solid;
     background: #63c6ff;
     color: black;
 }
@@ -49,5 +50,11 @@ tfoot tr{
 
 tfoot th{
     font-size: 18px;
+    border: 2px solid black;
+}
+
+
+tfoot td{
+    border: 2px solid black;
 }
 

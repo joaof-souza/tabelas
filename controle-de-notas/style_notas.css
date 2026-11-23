@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+
+body{
+    padding: 40px 20px;
+    background-color: #f3f6fb;
+    color: #003a90;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.conteudo-principal{
+    width: min(100% 900px); /* abreviação do max-width 900px e width 100% */
+    margin: 0 auto;
+}
+
+
+.conteudo-principal_header h1{
+    margin-bottom: 8px;
+    color: #173b70;
+    font-size: 1.8rem;
+    text-align: center;
+}
