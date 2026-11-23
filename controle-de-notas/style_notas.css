@@ -1,27 +1,100 @@
 *{
-    margin: 0;
+    margin:0 ;
     padding: 0;
-    box-sizing: border;
+    box-sizing: border-box;
 }
 
 
 body{
     padding: 40px 20px;
-    background-color: #f3f6fb;
-    color: #003a90;
-    font-family: Helvetica, sans-serif;
+    background-color: #f6edff;
+    color: #780090;
+    font-family:Helvetica, sans-serif ;
 }
 
 
-.conteudo-principal{
-    width: min(100% 900px); /* abreviação do max-width 900px e width 100% */
-    margin: 0 auto;
+.conteudo-principal {
+    width: min(100%, 900px);/* abreviação do min e max width */
+    margin:0 auto;
 }
 
 
 .conteudo-principal_header h1{
     margin-bottom: 8px;
-    color: #173b70;
+    color:#772b96;
     font-size: 1.8rem;
     text-align: center;
+    
+}
+
+
+.descricao {
+    margin: 0 0 24px;
+    color: #755d7e;
+    text-align: center;
+}
+
+
+.tabela-notas{
+    width: 100%;
+    border-collapse: collapse;
+    /* overflow: hidden */
+    background-color: #fff;
+    box-shadow: 0 4px 14px rgba(25, 55, 95, 0.10);
+}
+
+
+.tabela-notas caption{
+    /* padding: 16px; */
+    background: #772b96;
+    color: #fff;
+    font-size: 1.35rem;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    height: 58px;
+}
+
+
+.tabela-notas th, .tabela-notas td{
+    padding: 14px 16px;
+    border: 1px solid #cbd5e1;
+    text-align: center;
+}
+
+
+.tabela-notas thead th{
+    background-color: #f0dcf8;
+    color: #772b96;
+    font-weight: bold;
+}
+
+
+/* seleciona o primeiro elemento filho que contenha o atributo "colspan" */
+.tabela-notas thead tr:first-child th[colspan]{
+    background-color: #d6acf3;
+}
+
+
+.tabela-notas tbody th{
+    background-color: #fcf7fc;
+    font-weight: normal;
+}
+
+
+.tabela-notas tbody tr:hover,
+.tabela-notas tbody th:hover{
+    background-color: #ededed;
+}
+
+
+.tabela-notas tfoot th, .tabela-notas tfoot td{
+    background-color: #e3f3e8;
+    color: #185c35;
+    font-weight: bold;
+}
+
+
+img:hover{
+    width: 1000px;
 }

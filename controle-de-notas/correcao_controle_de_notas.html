@@ -3,71 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Tabelas</title>
+    <title>Controle de Notas</title>
 
-    <!-- linkando css -->
-     <link rel="stylesheet" href="./style_notas.css">
-
+    <link rel="stylesheet" href="./style_notas.css">
 </head>
 <body>
     <main class="conteudo-principal">
         <header class="conteudo-principal_header">
-            <h1>Boletim escolar</h1>
-            <p class="descricao">Acompanhamento das avaliações por disciplina</p>
+            <h1>Boletim Escolar 🤬🤬🤬🦻</h1>
+            <p class="descricao">Acompanhamento de Avaliações por Disciplina</p>
         </header>
 
-
         <table class="tabela-notas">
-            <!-- tipo de tabela para os leitores de tela -->
             <caption>Controle de Notas</caption>
 
-            <!-- cabecalho da tabela (das colunas) -->
+            <!-- cabeçalho -->
             <thead>
+
                 <tr>
                     <th scope='col' rowspan="2">Aluno</th>
                     <th scope='col' rowspan="2">Professor</th>
                     <th scope='col' rowspan="2">Disciplina</th>
-                    <th scope="'colgroup" colspan='3'>Notas</th>
+                    <th scope="colgroup" colspan='3'>Notas</th>
+
                 </tr>
 
                 <tr>
-                    <th scope='col'>Prova</th>
-                    <th scope='col'>Projeto</th>
-                    <th scope='col'>Seminário</th>
+
+                    <th scope="col">Prova</th>
+                    <th scope="col">Projeto</th>
+                    <th scope="col">Seminário</th>
+
                 </tr>
+
             </thead>
 
-
-            <!-- corpo da tabela -->
-             <tbody>
+            <!-- corpo -->
+            <tbody>
                 <tr>
-                    <th scope='row'>Ivo</th>
-                    <td>Eduardo</td>
-                    <td>Back-end</td>
+                    <th scope="row"><figure>
+                            <img src="https://images.pexels.com/photos/16056108/pexels-photo-16056108.jpeg" alt="malandro" width="10px">
+                            <figcaption>Ivo</figcaption>
+                        </figure></th>
+                    <td>Kaio</td>
+                    <td>Inglês</td>
                     <td>10.0</td>
                     <td>6.5</td>
                     <td>8.2</td>
                 </tr>
+
                 <tr>
-                    <th scope="'row">Ivo</th>
-                    <td>Marcela</td>
-                    <td>Matemática Financeira</td>
+                    <th scope="row">Ivo</th>
+                    <td>Fernando</td>
+                    <td>Filosofia</td>
                     <td>8.0</td>
                     <td>7.5</td>
                     <td>6.5</td>
                 </tr>
-             </tbody>
-
-
-             <!-- rodapé -->
-              <tfoot>
+            </tbody>
+            
+            <!-- rodapé -->
+            <tfoot>
                 <tr>
                     <th scope="row" colspan="3">Média</th>
-                    <td>9..0</td>
-                    <td>7.0</td>
+                    <td>9.00</td>
+                    <td>7.00</td>
                     <td>7.35</td>
                 </tr>
-              </tfoot>
+            </tfoot>
+
         </table>
     </main>
 </body>
